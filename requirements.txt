@@ -1,0 +1,11 @@
+bleach==6.1.0
+ipykernel==6.25.2
+matplotlib==3.7.3
+pandas==2.0.3
+soundfile==0.12.1
+torch==2.1.1
+torchaudio==2.1.1
+torchinfo==1.8.0
+torchvision==0.16.1
+tqdm==4.66.1
+ipython==8.12.3
