@@ -29,7 +29,7 @@ class SirenDataset(Dataset):
 
         audio = self._load_audio(cur_sample['file_path'])
 
-        if audio.shape[1] < self.sample_duration:
+        if audio.shape[1] < self.sample_duration * self.sample_rate:
             repetitions = int(self.sample_duration / audio.shape[1] + 1)
             audio = audio.repeat(1, repetitions)
 
